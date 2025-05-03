@@ -1,0 +1,22 @@
+Comandos Curso React parte 1 Back:
+
+- Para iniciar o projeto node = npm init -y
+- Para instalar biblioteca Express = npm i express
+- Para rodar o servidor = npm server.js (Nesse caso o comando ficou assim, pois foi criado o arquivo server.js)
+Obs: Para rodar o servidor sem erro, tem q editar o package.json, colocando a linha "type": "moule",
+- Para restart automático do servidor a cada save om alteração = node --watch server.js
+
+
+Obs: User e Pass Server MongoDB criado no curso user: cadufrancisco, pass: 79FlpX0etPHxfZfX
+
+No curso foi usado MongoDb com prisma (Feito o cadastro e criação do banco no site do MongoDB)  
+
+- Para instalar o prisma = npm install prisma --save-dev
+- Para iniciar o prisma = npx prisma init
+- Para informar que o banco esta configurado = npx prisma db push
+- Para instalar o prisma cliente = npm install @prisma/cliente
+- Para mostrar no navegador as informações do Banco de Dados = npx prisma studio
+
+
+
+
